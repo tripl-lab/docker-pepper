@@ -12,7 +12,7 @@ It contains Ubuntu 16.04 desktop and a VNC server. You just need to connect to i
 
 # How to run
 
-`docker run -p 5901:5901 ocihangir/docker-pepper`
+`docker run -p 5901:5901 tripl-lab/docker-pepper`
 
 and then connect to:
 
