@@ -1,3 +1,7 @@
+# Updated TRiPL version
+Some changes to versions used intenally. The orginal readme follows below.
+
+
 # Pepper/Nao Programming Tools on Ubuntu Desktop Dockerfile
 
 This unoffical Docker container contains necessary tools to program Softbank's Pepper and Nao robots on a Linux environment. 
