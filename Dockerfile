@@ -14,7 +14,7 @@ RUN apt-get update && \
 # Install Choregraphe Suite 2.5.10
 RUN wget -P /root/ https://community-static.aldebaran.com/resources/2.5.10/Choregraphe/choregraphe-suite-2.5.10.7-linux64-setup.run
 RUN chmod +x /root/choregraphe-suite-2.5.10.7-linux64-setup.run
-RUN /root/choregraphe-suite-2.5.10.7-linux64-setup.run --mode unattended --installdir /opt/Aldebaran --licenseKeyMode evaluation
+RUN /root/choregraphe-suite-2.5.10.7-linux64-setup.run --mode unattended --installdir /opt/Aldebaran --licenseKeyMode licenseKey --licenseKey 654e-4564-153c-6518-2f44-7562-206e-4c60-5f47-5f45 
 RUN rm /root/choregraphe-suite-2.5.10.7-linux64-setup.run
 
 # Install pynaoqi 2.5.10 library
